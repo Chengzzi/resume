@@ -1,0 +1,116 @@
+
+@font-face {
+  font-family: "xxx";
+  src: url('../icon/iconfont.eot?t=1494306234803'); /* IE9*/
+  src: url('../icon/iconfont.eot?t=1494306234803#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../icon/iconfont.woff?t=1494306234803') format('woff'), /* chrome, firefox */
+  url('../icon/iconfont.ttf?t=1494306234803') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../icon/iconfont.svg?t=1494306234803#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.icon {
+  font-family:"xxx" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+	background: #eee;
+	font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+
+}
+ul{
+	padding-left: 10px;
+}
+.font-color{
+	color:#3390CD;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.wrap{
+
+	background: #fff;
+	width: 1000px;
+	margin: 20px auto;
+	padding: 50px;
+}
+.head{
+	border-bottom: 5px solid #3390CD;
+	padding-bottom: 40px;
+}
+.head h1{
+	font-size: 50px;
+	margin:20px 0;
+}
+.name{
+
+	width: 250px;
+}
+.information{
+	padding-top: 20px;
+	font-size:0;
+	width: 400px;
+}
+.information>span{
+	font-size:16px;
+	display: inline-block;
+	width: 200px;
+	margin-top:10px;
+}
+.information span:last-child{
+	width:400px;
+}
+a{
+	text-decoration: none;
+	color: #999;
+}
+.head-pic{
+	text-align: center;
+	width: 250px;
+}
+.head-pic img{
+	width: 120px;
+}
+
+.main{
+	margin-top: 20px;
+}
+.item-name{
+	width: 200px;
+}
+.item-name h2{
+	margin: 0;
+}
+.item-content{
+	width: 740px;
+	padding: 29px 30px 0 28px;
+	border-top: 3px solid #3390CD;
+	border-left: 2px dotted #3390CD;
+	margin-top: 10px;
+	position: relative;
+}
+
+
+/*icon*/
+.information .icon{
+	font-size: 20px;
+	margin-right:5px;
+	color:#3390CD;
+}
+
+.item-content .icon{
+	color:#3390CD;
+	position: absolute;
+	top: -20px;
+	left: -60px;
+	font-size:50px;
+}
+
