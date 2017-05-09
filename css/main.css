@@ -36,7 +36,7 @@ ul{
 	float: left;
 }
 .wrap{
-
+	box-shadow: 0 5px 10px #999;
 	background: #fff;
 	width: 1000px;
 	margin: 20px auto;
